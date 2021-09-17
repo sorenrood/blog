@@ -9,13 +9,17 @@
     "start": "next start"
   },
   "dependencies": {
+    "autoprefixer": "^9.8.6",
     "gray-matter": "^4.0.2",
     "next": "latest",
     "nextra": "^0.4.4",
     "nextra-theme-blog": "^0.1.5",
+    "nextra-theme-docs": "^0.1.6",
+    "postcss-cli": "^8.3.1",
     "react": "^16",
     "react-dom": "^16",
-    "rss": "^1.2.2"
+    "rss": "^1.2.2",
+    "tailwindcss": "^1.9.6"
   },
   "prettier": {
     "arrowParens": "always",

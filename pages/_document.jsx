@@ -30,8 +30,10 @@ class MyDocument extends Document {
           <meta name="twitter:image" content={meta.image} />
         </Head>
         <body>
-          <Main />
-          <NextScript />
+          <div className="mx-auto max-w-2xl">
+            <Main />
+            <NextScript />
+          </div>
         </body>
       </Html>
     )
