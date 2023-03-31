@@ -1,12 +1,12 @@
 const YEAR = new Date().getFullYear()
 
 export default {
-  github: 'https://github.com/notjustinshaw/',
-  docsRepositoryBase: 'https://github.com/notjustinshaw/blog/blob/master',
-  titleSuffix: ' – Justin Shaw',
+  github: 'https://github.com/sorenrood/',
+  docsRepositoryBase: 'https://github.com/sorenrood/blog',
+  titleSuffix: ' – Søren Rood',
   logo: (
     <>
-      <span className="mr-2 font-extrabold hidden md:inline">Justin Shaw</span>
+      <span className="mr-2 font-extrabold hidden md:inline">Søren Rood</span>
       <span className="text-gray-600 font-normal hidden md:inline">
         A place to share my thoughts and learn.
       </span>
@@ -18,14 +18,14 @@ export default {
       <meta name="theme-color" content="#ffffff" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta httpEquiv="Content-Language" content="en" />
-      <meta name="description" content="Nextra: the Next.js site builder" />
-      <meta name="og:description" content="Nextra: the Next.js site builder" />
+      <meta name="description" content="Søren Rood" />
+      <meta name="og:description" content="Søren Rood" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:image" content="https://nextra.vercel.app/og.png" />
-      <meta name="twitter:site:domain" content="nextra.vercel.app" />
-      <meta name="twitter:url" content="https://nextra.vercel.app" />
-      <meta name="og:title" content="Nextra: Next.js static site generator" />
-      <meta name="og:image" content="https://nextra.vercel.app/og.png" />
+      <meta name="twitter:image" content="https://cdn.discordapp.com/attachments/894804525494456343/958585474597937152/unknown.png" />
+      <meta name="twitter:site:domain" content="Søren Rood" />
+      <meta name="twitter:url" content="https://sorenrood.com" />
+      <meta name="og:title" content="Søren Rood" />
+      <meta name="og:image" content="Søren Rood" />
       <meta name="apple-mobile-web-app-title" content="Nextra" />
       <link
         rel="apple-touch-icon"
@@ -64,6 +64,6 @@ export default {
   nextLinks: true,
   footer: true,
   footerEditLink: 'Edit this page on GitHub',
-  footerText: <>{YEAR} © Justin Shaw.</>,
+  footerText: <>{YEAR} © Søren Rood.</>,
   unstable_faviconGlyph: '👋',
 }

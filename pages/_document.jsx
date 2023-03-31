@@ -8,10 +8,10 @@ class MyDocument extends Document {
 
   render() {
     const meta = {
-      title: 'Justin Shaw\'s Blog',
-      description: 'Things I\'m thinking about that are longer than 140 characters.',
+      title: 'Søren Rood\'s Website',
+      description: 'A portal into my online life.',
       image:
-        'https://assets.vercel.com/image/upload/q_auto/front/vercel/dps.png'
+        'https://cdn.discordapp.com/attachments/894804525494456343/958585474597937152/unknown.png'
     }
 
     return (
@@ -23,8 +23,8 @@ class MyDocument extends Document {
           <meta property="og:description" content={meta.description} />
           <meta property="og:title" content={meta.title} />
           <meta property="og:image" content={meta.image} />
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:site" content="@yourname" />
+          <meta name="twitter:card" content={meta.image} />
+          <meta name="twitter:site" content="@roodsoren" />
           <meta name="twitter:title" content={meta.title} />
           <meta name="twitter:description" content={meta.description} />
           <meta name="twitter:image" content={meta.image} />
